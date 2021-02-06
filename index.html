@@ -48,6 +48,16 @@ function play(){
    var audio = document.getElementById("audio");
    audio.play();
              }
+      </script>
+    
+<script>
+var audioNew = document.querySelector('.js-audio-new'); // <- might use jQuery for older browsers here
+if (audioNew.play) {
+  audioNew.play();
+}
+else {
+  audioNew.innerHTML = '<embed src="' + audioNew.attributes.src.value + '" autostart=true loop=false volume=100 hidden=true></embed>';
+}      
 </script>
 
       <div class="site-wrapper-inner">
@@ -80,11 +90,11 @@ function play(){
             </div>
 
             <audio id="audio" src="sound/female-5.wav"></audio>
-          
-<embed src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.mp3" autostart="true" loop="true" width="2" height="0"></embed>
-<noembed>
-<bgsound src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.mp3" loop="infinite">
-</noembed>
+  
+  <audio class="js-audio-new">
+  <source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.ogg" type="audio/ogg">
+  <source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.mp3" type="audio/mpeg">
+</audio>
           
                       <div class="inner">
             <h4 class="lead">If you're wondering how to play ... </h4>       
