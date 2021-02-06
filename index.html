@@ -44,12 +44,17 @@
 
   <body>
 
-    <script>
+<script>
 function play(){
    var audio = document.getElementById("audio");
    audio.play();
              }
-      </script>
+</script>
+ 
+<script>
+  var audio = document.getElementById("player");
+  audio.volume = 0.6;
+</script>
     
       <div class="site-wrapper-inner">
 
@@ -88,6 +93,7 @@ function play(){
           <audio id="player" autoplay loop>
              <source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.ogg" type="audio/ogg">
             <source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.mp3" type="audio/mp3">
+            Your browser sucks and does not support the audio element :(
           </audio>
           
                       <div class="inner">
