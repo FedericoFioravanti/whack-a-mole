@@ -22,7 +22,7 @@
   transition-timing-function: linear;
 }
 
-.square:active {
+.square:hover {
   border-color: tomato;
   -moz-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
   -webkit-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
@@ -36,7 +36,7 @@
   transition-duration: 2s, 1s;
 }
 
-.square:checked, .square:hover {
+.square:focus {
   border-color: limegreen;
   -moz-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
   -webkit-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
@@ -50,8 +50,23 @@
   transition-duration: 2s, 1s;
 }
 
-.square:hover {
+.square:active {
   border-color: yellow;
+  -moz-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
+  -webkit-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
+  -o-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
+  -ms-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
+  transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
+  box-shadow: 1px 4px 14px limegreen;
+  transition: all 3s ease-out;
+  transition: width 3s;
+  transition-timing-function: linear;
+  transition-duration: 2s, 1s;
+  border-radius: 20%;
+}
+
+.square:clicked {
+  border-color: #546373;
   -moz-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
   -webkit-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
   -o-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
