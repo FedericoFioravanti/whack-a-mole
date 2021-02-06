@@ -51,7 +51,7 @@
 }
 
 .square:active {
-  border-color: yellow;
+  border-color: #546379;
   -moz-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
   -webkit-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
   -o-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
@@ -63,6 +63,7 @@
   transition-timing-function: linear;
   transition-duration: 2s, 1s;
   border-radius: 20%;
+  border: 1px solid;
 }
 
 .square:clicked {
