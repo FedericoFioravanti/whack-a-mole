@@ -68,4 +68,5 @@
   transition-duration: 1s, 1s;
   background-size: cover;
   border-radius: 4%;
+  border: 0px solid;
 }
