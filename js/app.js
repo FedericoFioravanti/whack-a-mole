@@ -42,7 +42,7 @@ function countDown() {
 
   if(currentTime === 0 ) {
     clearInterval(timerId)
-    alert('If you punched hard, now it is time to give it a caress to Dawson \n GAME OVER! Your final score is ' + result)
+    alert('GAME OVER! Your final score is ' + result + 'If you punched hard, now it is time to give it a caress to Dawson')
   }
 }
 
