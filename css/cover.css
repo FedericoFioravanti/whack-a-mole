@@ -19,6 +19,14 @@ a:hover {
   border: 1px solid #fff;
 }
 
+/* Img */
+img.clueless {
+    width: 100%;
+    max-width: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 /*
  * Base structure
