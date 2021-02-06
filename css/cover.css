@@ -20,13 +20,7 @@ a:hover {
 }
 
 /* Img */
-img.clueless {
-    width: 100%;
-    max-width: 500px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
+.clueless {width: 100%;}
 
 /*
  * Base structure
