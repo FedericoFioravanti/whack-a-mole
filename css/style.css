@@ -1,0 +1,70 @@
+.square {
+  width: 22%;
+  border: 2px solid;
+  min-width: 113px;
+  min-height: 113px;
+  border-radius: 50%;
+  margin: 6px;
+  border-color: #fff;
+  box-shadow: 1px 4px 14px #222;
+  -webkit-transition: all 3s ease-out;
+  -moz-transition: all 3s ease-out;
+  -ms-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+  transition: width 1s;
+  /* background-image: url('file:///Users/federico/Desktop/Js/whack-a-mole-master/img/hole-3.png'); */
+  background-size: cover;
+  background-size: 325%;
+  background-repeat: no-repeat;
+  background-position-x: -113px;
+  background-position-y: -90px;
+  transition-timing-function: linear;
+}
+
+.square:active, .square:checked, .square:hover {
+  border-color: limegreen;
+  -moz-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
+  -webkit-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
+  -o-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
+  -ms-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
+  transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
+  box-shadow: 1px 4px 14px limegreen;
+  transition: all 3s ease-out;
+  transition: width 3s;
+  transition-timing-function: linear;
+  transition-duration: 2s, 1s;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    max-width: 460px;
+    margin: 50px auto;
+    cursor: url('file:///Users/federico/Desktop/Js/whack-a-mole-master/img/arrow.png'), auto;
+}
+
+.mole {
+  background-image: url('file:///Users/federico/Desktop/Js/whack-a-mole-master/img/dawson-crying.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+
+.mole:hover, .mole:active, .mole:checked, {
+  background-image: url('file:///Users/federico/Desktop/Js/whack-a-mole-master/img/shit.png');
+  background-size: cover;
+  transform: perspective(2px);
+  transform: rotate(220deg);
+  /* transform: rotate3d(1, 1.0, 1.0, 45deg); */
+  box-shadow: 1px 4px 14px #546373;
+  transition: all 1s ease-out;
+  transition: width 1s;
+  transition-timing-function: linear;
+  transition-duration: 1s, 1s;
+  background-size: cover;
+  border-radius: 4%;
+}
