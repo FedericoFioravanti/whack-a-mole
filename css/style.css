@@ -13,7 +13,7 @@
   -o-transition: all 3s ease-out;
   transition: all 3s ease-out;
   transition: width 1s;
-  background-image: url('https://federicofioravanti.github.io/whack-a-mole/img/hole-3.png');
+  background-image: url('https://federicofioravanti.github.io/whack-a-mole/img/hole.png');
   background-size: cover;
   background-size: 325%;
   background-repeat: no-repeat;
@@ -43,7 +43,8 @@
     align-content: center;
     max-width: 460px;
     margin: 50px auto;
-    cursor: url('img/arrow.png'), auto;
+    cursor:url('https://federicofioravanti.github.io/whack-a-mole/img/arrow.png'), auto;
+
 }
 
 .mole {
