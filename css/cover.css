@@ -26,7 +26,7 @@ a:hover {
 
 html,
 body {
-  cursor:url('https://federicofioravanti.github.io/whack-a-mole/img/right.png'), url('https://federicofioravanti.github.io/whack-a-mole/img/Thors-H.cur'), auto;
+  cursor:url('https://federicofioravanti.github.io/whack-a-mole/img/Hammer.cur'), url('https://federicofioravanti.github.io/whack-a-mole/img/Thors-H.cur'), auto;
   height: 100%;
   background-color: #333;
 }
