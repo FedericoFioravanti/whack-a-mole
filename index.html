@@ -51,16 +51,6 @@ function play(){
              }
       </script>
     
-<script>
-var audioNew = document.querySelector('.js-audio-new'); // <- might use jQuery for older browsers here
-if (audioNew.play) {
-  audioNew.play();
-}
-else {
-  audioNew.innerHTML = '<embed src="' + audioNew.attributes.src.value + '" autostart=true loop=false volume=100 hidden=true></embed>';
-}      
-</script>
-
       <div class="site-wrapper-inner">
 
         <div class="cover-container">
@@ -92,10 +82,13 @@ else {
 
             <audio id="audio" src="https://federicofioravanti.github.io/whack-a-mole/sound/Oops.mp3"></audio>
   
-<audio class="js-audio-new">
-  <source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.ogg" type="audio/ogg">
-  <source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.mp3" type="audio/mpeg">
-</audio>
+          
+          <iframe src="https://federicofioravanti.github.io/whack-a-mole/sound/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+
+          <audio id="player" autoplay loop>
+             <source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.ogg" type="audio/ogg">
+            <source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.mp3" type="audio/mp3">
+          </audio>
           
                       <div class="inner">
             <h4 class="lead">If you're wondering how to play ... </h4>       
