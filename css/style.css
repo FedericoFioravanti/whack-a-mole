@@ -26,11 +26,11 @@
 
 .square:hover {
   border-color: limegreen;
-  -moz-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
-  -webkit-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
-  -o-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
-  -ms-transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
-  transform: scale(1.1) rotate(790deg) translateX(0px) translateY(1px);
+  -moz-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
+  -webkit-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
+  -o-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
+  -ms-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
+  transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
   box-shadow: 1px 4px 14px limegreen;
   transition: all 3s ease-out;
   transition: width 3s;
@@ -41,11 +41,11 @@
 
 .square:focus {
   border-color: limegreen;
-  -moz-transform: scale(0.9) rotate(790deg) translateX(0px) translateY(1px);
-  -webkit-transform: scale(0.9) rotate(790deg) translateX(0px) translateY(1px);
-  -o-transform: scale(0.9) rotate(790deg) translateX(0px) translateY(1px);
-  -ms-transform: scale(0.9) rotate(790deg) translateX(0px) translateY(1px);
-  transform: scale(0.9) rotate(790deg) translateX(0px) translateY(1px);
+  -moz-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
+  -webkit-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
+  -o-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
+  -ms-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
+  transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
   box-shadow: 1px 4px 14px limegreen;
   transition: all 3s ease-out;
   transition: width 3s;
@@ -56,11 +56,11 @@
 
 .square:active {
   border-color: limegreen;
-  -moz-transform: scale(0.9) rotate(790deg) translateX(0px) translateY(1px);
-  -webkit-transform: scale(0.9) rotate(790deg) translateX(0px) translateY(1px);
-  -o-transform: scale(0.9) rotate(790deg) translateX(0px) translateY(1px);
-  -ms-transform: scale(0.9) rotate(790deg) translateX(0px) translateY(1px);
-  transform: scale(0.9) rotate(790deg) translateX(0px) translateY(1px);
+  -moz-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
+  -webkit-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
+  -o-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
+  -ms-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
+  transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
   box-shadow: 1px 4px 14px limegreen;
   transition: all 3s ease-out;
   transition: width 3s;
@@ -72,11 +72,11 @@
 
 .square:clicked {
   border-color: limegreen;
-  -moz-transform: scale(0.9) rotate(790deg) translateX(0px) translateY(1px);
-  -webkit-transform: scale(0.9) rotate(790deg) translateX(0px) translateY(1px);
-  -o-transform: scale(0.9) rotate(790deg) translateX(0px) translateY(1px);
-  -ms-transform: scale(0.9) rotate(790deg) translateX(0px) translateY(1px);
-  transform: scale(0.9) rotate(790deg) translateX(0px) translateY(1px);
+  -moz-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
+  -webkit-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
+  -o-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
+  -ms-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
+  transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
   box-shadow: 1px 4px 14px limegreen;
   transition: all 3s ease-out;
   transition: width 3s;
