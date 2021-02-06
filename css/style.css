@@ -1,3 +1,5 @@
+.hidden { display: inline; height: 1px; width: 1px;}
+
 .square {
   width: 22%;
   border: 2px solid;
