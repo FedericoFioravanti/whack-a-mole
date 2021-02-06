@@ -13,7 +13,7 @@
   -o-transition: all 3s ease-out;
   transition: all 3s ease-out;
   transition: width 1s;
-  /* background-image: url('img/hole-3.png'); */
+  background-image: url('img/hole-3.png');
   background-size: cover;
   background-size: 325%;
   background-repeat: no-repeat;
