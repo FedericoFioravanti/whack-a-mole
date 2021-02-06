@@ -13,7 +13,7 @@
   -o-transition: all 3s ease-out;
   transition: all 3s ease-out;
   transition: width 1s;
-  background-image: url('img/hole-3.png');
+  background-image: url('https://federicofioravanti.github.io/whack-a-mole/img/hole-3.png');
   background-size: cover;
   background-size: 325%;
   background-repeat: no-repeat;
@@ -47,7 +47,7 @@
 }
 
 .mole {
-  background-image: url('img/dawson-crying.jpg');
+  background-image: url('https://federicofioravanti.github.io/whack-a-mole/img/dawson-crying.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 0px;
@@ -55,7 +55,7 @@
 }
 
 .mole:hover, .mole:active, .mole:checked, {
-  background-image: url('img/shit.png');
+  background-image: url('https://federicofioravanti.github.io/whack-a-mole/img/shit.png');
   background-size: cover;
   transform: perspective(2px);
   transform: rotate(220deg);
