@@ -50,17 +50,6 @@ function play(){
    audio.play();
              }
 </script>
-<script>
-var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-  if (!isChrome){
-      $('#iframeAudio').remove()
-  }
-  else {
-      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
-  }    
-</script>
-  
-</script>
     
       <div class="site-wrapper-inner">
 
@@ -94,7 +83,7 @@ var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator
             <audio id="audio" src="https://federicofioravanti.github.io/whack-a-mole/sound/Oops.mp3"></audio>
   
           
- <iframe src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe> 
+<iframe src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe>
 
           <audio id="playAudio" autoplay loop>
              <source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.ogg" type="audio/ogg">
@@ -131,6 +120,16 @@ Yesterday I had to play whack a mole at work, I was all alone and the damn custo
     </div>
 
   </body>
+
+<script>
+var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  if (!isChrome){
+      $('#iframeAudio').remove()
+  }
+  else {
+      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+  }    
+</script>
 
   <script src="js/app.js" charset="utf-8"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" charset="utf-8"></script>
