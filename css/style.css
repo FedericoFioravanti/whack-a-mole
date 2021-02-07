@@ -116,12 +116,11 @@
   background-size: cover;
   transform: perspective(2px);
   transform: rotate(220deg);
-  /* transform: rotate3d(1, 1.0, 1.0, 45deg); */
   box-shadow: 1px 4px 14px #546373;
   transition: all 1s ease-out;
   transition: width 1s;
   transition-timing-function: linear;
   transition-duration: 1s, 1s;
   background-size: cover;
-  border: 50px;
+  border: 100px solid tomato;
 }
