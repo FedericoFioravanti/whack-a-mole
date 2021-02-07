@@ -50,27 +50,16 @@ function play(){
    audio.play();
              }
 </script>
- 
 <script>
-const button = document.querySelector("#button");
-const icon = document.querySelector("#button > i");
-const audio = document.querySelector("audio");
-
-button.addEventListener("click", () => {
-  if (audio.paused) {
-    audio.volume = 0.8;
-    audio.play();
-    icon.classList.remove('fa-volume-up');
-    icon.classList.add('fa-volume-mute');
-    
-  } else {
-    audio.pause();
-    icon.classList.remove('fa-volume-mute');
-    icon.classList.add('fa-volume-up');
+var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  if (!isChrome){
+      $('#iframeAudio').remove()
   }
-  button.classList.add("fade");
-});
-
+  else {
+      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+  }    
+<script>
+  
 </script>
     
       <div class="site-wrapper-inner">
@@ -104,8 +93,12 @@ button.addEventListener("click", () => {
 
             <audio id="audio" src="https://federicofioravanti.github.io/whack-a-mole/sound/Oops.mp3"></audio>
   
-            <audio src="https://federicofioravanti.github.io/whack-a-mole/sound/silence.mp3"></audio>
-            <button id="button"><i class="fas fa-volume-up"></i></button>
+          
+ <iframe src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe> 
+ <audio autoplay loop  id="playAudio">
+    <source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.mp3">
+</audio>    
+
           
           <!--<audio id="player" autoplay loop>
              <source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.ogg" type="audio/ogg">
