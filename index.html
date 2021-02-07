@@ -45,16 +45,6 @@
   <body>
     
 <script>
-var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-  if (!isChrome){
-      $('#iframeAudio').remove()
-  }
-  else {
-      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
-  }    
-</script>
-
-<script>
 function play(){
    var audio = document.getElementById("audio");
    audio.play();
@@ -92,9 +82,6 @@ function play(){
 
             <audio id="audio" src="https://federicofioravanti.github.io/whack-a-mole/sound/Oops.mp3"></audio>
   
-          
-<iframe src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe>
-
           <audio id="playAudio" autoplay loop>
              <source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.ogg" type="audio/ogg">
             <source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.mp3" type="audio/mp3">
