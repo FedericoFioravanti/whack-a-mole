@@ -13,7 +13,7 @@
   -o-transition: all 3s ease-out;
   transition: all 3s ease-out;
   transition: width 1s;
-  background-image: url('https://federicofioravanti.github.io/whack-a-mole/img/hole-3.png'); 
+  /*background-image: url('https://federicofioravanti.github.io/whack-a-mole/img/hole-3.png');*/
   background-size: cover;
   background-size: 320%;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 }
 
 .square:active {
-	transition: .1s;
+  transition: .1s;
   -moz-transform: scale(1.1) rotate(200deg);
   -webkit-transform: scale(1.1) rotate(200deg);
   -o-transform: scale(1.1) rotate(200deg);
@@ -34,11 +34,6 @@
 
 .square:hover {
   border-color: limegreen;
-  -moz-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
-  -webkit-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
-  -o-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
-  -ms-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
-  transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
   box-shadow: 1px 4px 14px limegreen;
   transition: all 3s ease-out;
   transition: width 3s;
@@ -49,11 +44,6 @@
 
 .square:focus {
   border-color: limegreen;
-  -moz-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
-  -webkit-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
-  -o-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
-  -ms-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
-  transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
   box-shadow: 1px 4px 14px limegreen;
   transition: all 3s ease-out;
   transition: width 3s;
@@ -63,18 +53,11 @@
 }
 
 .square:active {
-  border-color: limegreen;
-  -moz-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
-  -webkit-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
-  -o-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
-  -ms-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
-  transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
   box-shadow: 1px 4px 14px limegreen;
   transition: all 3s ease-out;
   transition: width 3s;
   transition-timing-function: linear;
   transition-duration: 2s, 1s;
-  border-radius: 30%;
   border: 1px solid;
 }
 
@@ -102,7 +85,7 @@
 }
 
 .mole {
-  background-image: url('https://federicofioravanti.github.io/whack-a-mole/img/dawson-crying.jpg');
+  background-image: url('https://federicofioravanti.github.io/whack-a-mole/img/dawson-png.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 0px;
