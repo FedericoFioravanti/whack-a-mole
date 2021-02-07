@@ -87,8 +87,11 @@
 
 .mole:active {
   background-size: cover;
-  transform: perspective(2px);
-  transform: rotate(220deg);
+    -moz-transform: scale(8.0) rotate(200deg);
+  -webkit-transform: scale(8.0) rotate(200deg);
+  -o-transform: scale(8.0) rotate(200deg);
+  -ms-transform: scale(8.0) rotate(200deg);
+  transform: scale(8.0) rotate(200deg);
   box-shadow: 1px 4px 14px #546373;
   transition: all 1s ease-out;
   transition: width 1s;
