@@ -77,15 +77,16 @@ button.addEventListener("click", function(){
                 <ul class="nav masthead-nav">
                   <li>Your score: <span class="label label-warning" id="score">0</span></li>
                   <li>Seconds left: <span class="label label-warning" id="time-left">60</span></li>
-                  <!--<li class="active"><a href="#">Ye!</a></li>-->
                 </ul>
               </nav>
             </div>
           </div>
 		
-		 <div class="inner">
-  <button id="button">Sound On</button>
-		 </div>
+<div class="inner">
+<div>
+	<button class="label label-warning" id="button">Sound On</button>
+</div>	
+		</div>
 
             <div class="grid">
               <div class="square" id="1" value="PLAY"  onclick="play()"></div>
@@ -100,9 +101,8 @@ button.addEventListener("click", function(){
             </div>
 
 <audio id="player" preload="auto">
- <source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy-sad.ogg" type="audio/ogg">
+ <!--<source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy-sad.ogg" type="audio/ogg">-->
   <source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy-sad.mp3" type="audio/mp3">
-           Your browser sucks and does not support the audio element :(      
 </audio>
           
           <div class="inner">
