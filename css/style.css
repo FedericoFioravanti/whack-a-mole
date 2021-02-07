@@ -13,7 +13,7 @@
   }
   100% {
     color: #fff;
-    background: radial-gradient(circle at center, #f88 99%, #fff 100%, #fff 100%);
+    background: radial-gradient(circle at center, #ff6 99%, #fff 100%, #fff 100%);
   }
 }
 
@@ -36,8 +36,7 @@
 }
 
 .square:hover {
-  border-color: limegreen;
-  box-shadow: 1px 4px 14px limegreen;
+  border-color: white;
   transition: all 3s ease-out;
   transition: width 3s;
   transition-timing-function: linear;
