@@ -180,4 +180,7 @@ body {
     min-width: 108px;
     min-height: 108px;
   }
+  .inner {
+    max-width: 370px;
+}
 }
