@@ -98,7 +98,7 @@
   transition-timing-function: linear;
   transition-duration: 1s, 1s;
   background-size: cover;
-  border: 40px solid tomato;
+  border: 0px solid #fff;
 }
 
 .mole:clicked {
@@ -114,5 +114,5 @@
   transition-timing-function: linear;
   transition-duration: 1s, 1s;
   background-size: cover;
-  border: 40px solid tomato;
+  border: 0px solid #fff;
 }
