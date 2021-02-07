@@ -35,16 +35,6 @@
   transition: all .2s ease-in-out;
 }
 
-.square:active {
-  transition: .1s;
-  -moz-transform: scale(1.1) rotate(200deg);
-  -webkit-transform: scale(1.1) rotate(200deg);
-  -o-transform: scale(1.1) rotate(200deg);
-  -ms-transform: scale(1.1) rotate(200deg);
-  transform: scale(1.1) rotate(200deg);
-  animation: gradient 100ms;
-}
-
 .square:hover {
   border-color: limegreen;
   box-shadow: 1px 4px 14px limegreen;
@@ -55,23 +45,13 @@
   border: 1px solid;
 }
 
-.square:focus {
-  border-color: limegreen;
-  box-shadow: 1px 4px 14px limegreen;
-  transition: all 3s ease-out;
-  transition: width 3s;
-  transition-timing-function: linear;
-  transition-duration: 2s, 1s;
-  border: 1px solid;
-}
-
 .square:active {
-  box-shadow: 1px 4px 14px limegreen;
   transition: all 3s ease-out;
   transition: width 3s;
   transition-timing-function: linear;
   transition-duration: 2s, 1s;
   border: 1px solid;
+  animation: gradient 100ms;
 }
 
 .square:clicked {
@@ -86,6 +66,7 @@
   transition: width 3s;
   transition-timing-function: linear;
   transition-duration: 2s, 1s;
+  animation: gradient 100ms;
 }
 
 .grid {
