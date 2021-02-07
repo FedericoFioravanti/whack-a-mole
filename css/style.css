@@ -20,6 +20,16 @@
   background-position-x: -108px;
   background-position-y: -84px;
   transition-timing-function: linear;
+  transition: all .2s ease-in-out;
+}
+
+.square:active {
+	transition: .1s;
+  -moz-transform: scale(1.1) rotate(200deg);
+  -webkit-transform: scale(1.1) rotate(200deg);
+  -o-transform: scale(1.1) rotate(200deg);
+  -ms-transform: scale(1.1) rotate(200deg);
+  transform: scale(1.1) rotate(200deg);
 }
 
 .square:hover {
