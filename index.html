@@ -43,6 +43,16 @@
 </head>
 
   <body>
+    
+<script>
+var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  if (!isChrome){
+      $('#iframeAudio').remove()
+  }
+  else {
+      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+  }    
+</script>
 
 <script>
 function play(){
@@ -50,7 +60,7 @@ function play(){
    audio.play();
              }
 </script>
-    
+
       <div class="site-wrapper-inner">
 
         <div class="cover-container">
@@ -121,17 +131,7 @@ Yesterday I had to play whack a mole at work, I was all alone and the damn custo
 
   </body>
 
-<script>
-var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-  if (!isChrome){
-      $('#iframeAudio').remove()
-  }
-  else {
-      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
-  }    
-</script>
-
-  <script src="js/app.js" charset="utf-8"></script>
+<script src="js/app.js" charset="utf-8"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" charset="utf-8"></script>
 
 </html>
