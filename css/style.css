@@ -17,8 +17,6 @@
   }
 }
 
-
-
 .square {
   width: 22%;
   border: 6px solid;
@@ -114,7 +112,7 @@
   background-position-y: 0px;
 }
 
-.mole:hover, .mole:active, .mole:checked, {
+.mole:active {
   background-size: cover;
   transform: perspective(2px);
   transform: rotate(220deg);
@@ -125,6 +123,5 @@
   transition-timing-function: linear;
   transition-duration: 1s, 1s;
   background-size: cover;
-  border-radius: 30%;
-  border: 10px tomato;
+  border: 50px;
 }
