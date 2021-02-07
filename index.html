@@ -52,8 +52,25 @@ function play(){
 </script>
  
 <script>
-  var audio = document.getElementById("player");
-  audio.volume = 0.6;
+const button = document.querySelector("#button");
+const icon = document.querySelector("#button > i");
+const audio = document.querySelector("audio");
+
+button.addEventListener("click", () => {
+  if (audio.paused) {
+    audio.volume = 0.2;
+    audio.play();
+    icon.classList.remove('fa-volume-up');
+    icon.classList.add('fa-volume-mute');
+    
+  } else {
+    audio.pause();
+    icon.classList.remove('fa-volume-mute');
+    icon.classList.add('fa-volume-up');
+  }
+  button.classList.add("fade");
+});
+
 </script>
     
       <div class="site-wrapper-inner">
@@ -87,16 +104,16 @@ function play(){
 
             <audio id="audio" src="https://federicofioravanti.github.io/whack-a-mole/sound/Oops.mp3"></audio>
   
+            <audio src="https://federicofioravanti.github.io/whack-a-mole/sound/silence.mp3"></audio>
+            <button id="button"><i class="fas fa-volume-up"></i></button>
           
-          <iframe src="https://federicofioravanti.github.io/whack-a-mole/sound/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
-
-          <audio id="player" autoplay loop>
+          <!--<audio id="player" autoplay loop>
              <source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.ogg" type="audio/ogg">
             <source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy.mp3" type="audio/mp3">
             Your browser sucks and does not support the audio element :(
-          </audio>
+          </audio>-->
           
-                      <div class="inner">
+          <div class="inner">
             <h4 class="lead">If you're wondering how to play ... </h4>       
               <p>Learn from the best. He is a beast at this game.</p>
               <img class="clueless" src="https://raw.githubusercontent.com/FedericoFioravanti/whack-a-mole/main/img/cat-7.gif"> 
