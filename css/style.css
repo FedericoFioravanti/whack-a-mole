@@ -87,7 +87,7 @@
 
 .mole:active {
   background-size: cover;
-    -moz-transform: scale(8.0) rotate(200deg);
+  -moz-transform: scale(8.0) rotate(200deg);
   -webkit-transform: scale(8.0) rotate(200deg);
   -o-transform: scale(8.0) rotate(200deg);
   -ms-transform: scale(8.0) rotate(200deg);
