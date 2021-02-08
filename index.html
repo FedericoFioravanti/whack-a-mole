@@ -128,10 +128,10 @@ var audio = document.getElementById("player");
 button.addEventListener("click", function(){
   if(audio.paused){
     audio.play();
-    button.innerHTML = "<i class="fa fa-volume-off" aria-hidden="true"></i> Mute Sound";
+    button.innerHTML = "<span><i class="fa fa-volume-off" aria-hidden="true"></i> Mute Sound</span>";
   } else {
     audio.pause();
-    button.innerHTML = "<i class="fa fa-volume-on" aria-hidden="true"></i> Sound On";
+    button.innerHTML = "<span><i class="fa fa-volume-on" aria-hidden="true"></i> Sound On</span>";
   }
 });
 </script>
