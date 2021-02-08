@@ -70,7 +70,7 @@ function play(){
             </div>
           </div>
 		
-<div class="inner"><button class="label unmute-button" id="button"><i class="fa fa-volume-off" aria-hidden="true"></i> Sound On</button></div>
+<div class="inner"><button class="unmute-button" id="button"> Sound On</button></div>
 		
             <div class="grid">
               <div class="square" id="1" value="PLAY"  onclick="play()"></div>
@@ -128,10 +128,10 @@ var audio = document.getElementById("player");
 button.addEventListener("click", function(){
   if(audio.paused){
     audio.play();
-    button.innerHTML = "Mute Sound";
+    button.innerHTML = "<i class="fa fa-volume-off" aria-hidden="true"></i> Mute Sound";
   } else {
     audio.pause();
-    button.innerHTML = "Sound On";
+    button.innerHTML = "<i class="fa fa-volume-on" aria-hidden="true"></i> Sound On";
   }
 });
 </script>
