@@ -59,7 +59,7 @@ var playSoundBtn = document.getElementsByClassName("mole");
 
 var playSound = function() {
     var attribute = this.getAttribute("data-sound");
-    var sounds = document.getElementsByTagName('div');
+    var sounds = document.getElementsById('hit');
     for(i=0; i<sounds.length; i++){
         sounds[i].pause();
         sounds[i].currentTime = 0;
