@@ -106,8 +106,8 @@
 }
 
 .square:active {
-  transition: all 3s ease-out;
-  transition: width 3s;
+  transition: all .4s ease-out;
+  transition: width .4s;
   transition-timing-function: linear;
   transition-duration: 2s, 1s;
   border: 1px solid;
@@ -116,7 +116,7 @@
 
 .square:clicked {
    -webkit-animation-name: gradient;
-  -webkit-animation-duration: 40s;
+  -webkit-animation-duration: .4s;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-timing-function: linear;
   -webkit-animation-fill-mode: forwards;
@@ -126,9 +126,9 @@
   -ms-transform: scale(0.9) rotate(200deg);
   transform: scale(0.9) rotate(200deg);
   transition: all 3s ease-out;
-  transition: width 3s;
+  transition: width .4s;
   transition-timing-function: linear;
-  transition-duration: 2s, 1s;
+  transition-duration: .4s, .3s;
   animation: gradient 100ms;
 }
 
@@ -152,15 +152,15 @@
 .mole:active {
   background-image: url('https://federicofioravanti.github.io/whack-a-mole/img/dawson.png');
   background-size: cover;
-  -moz-transform: scale(2.0) rotate(200deg);
-  -webkit-transform: scale(2.0) rotate(200deg);
-  -o-transform: scale(2.0) rotate(200deg);
-  -ms-transform: scale(2.0) rotate(200deg);
-  transform: scale(2.0) rotate(200deg);
-  transition: all 1s ease-out;
-  transition: width 1s;
+  -moz-transform: scale(10.0) rotate(200deg);
+  -webkit-transform: scale(10.0) rotate(200deg);
+  -o-transform: scale(10.0) rotate(200deg);
+  -ms-transform: scale(10.0) rotate(200deg);
+  transform: scale(10.0) rotate(200deg);
+  transition: all 100ms ease-out;
+  transition: width .2s;
   transition-timing-function: linear;
-  transition-duration: 1s, 1s;
+  transition-duration: .2s, .1s;
   background-size: cover;
   border: 2px;
   animation: gradient 100ms;
@@ -169,15 +169,15 @@
 .mole:target {
   background-image: url('https://federicofioravanti.github.io/whack-a-mole/img/dawson.png');
   background-size: cover;
-  -moz-transform: scale(2.0) rotate(200deg);
-  -webkit-transform: scale(2.0) rotate(200deg);
-  -o-transform: scale(2.0) rotate(200deg);
-  -ms-transform: scale(2.0) rotate(200deg);
-  transform: scale(2.0) rotate(200deg);
-  transition: all 1s ease-out;
-  transition: width 1s;
+  -moz-transform: scale(10.0) rotate(200deg);
+  -webkit-transform: scale(10.0) rotate(200deg);
+  -o-transform: scale(10.0) rotate(200deg);
+  -ms-transform: scale(10.0) rotate(200deg);
+  transform: scale(10.0) rotate(200deg);
+  transition: all 100ms ease-out;
+  transition: width 100ms;
   transition-timing-function: linear;
-  transition-duration: 1s, 1s;
+  transition-duration: 100ms, 100ms;
   background-size: cover;
   border: 2px;
   animation: gradient 100ms;
@@ -185,15 +185,15 @@
 
 .mole:clicked {
   background-size: cover;
-  -moz-transform: scale(2.0) rotate(200deg);
-  -webkit-transform: scale(2.0) rotate(200deg);
-  -o-transform: scale(2.0) rotate(200deg);
-  -ms-transform: scale(2.0) rotate(200deg);
-  transform: scale(2.0) rotate(200deg);
-  transition: all 1s ease-out;
-  transition: width 1s;
+  -moz-transform: scale(10.0) rotate(200deg);
+  -webkit-transform: scale(10.0) rotate(200deg);
+  -o-transform: scale(10.0) rotate(200deg);
+  -ms-transform: scale(10.0) rotate(200deg);
+  transform: scale(10.0) rotate(200deg);
+  transition: all 100ms ease-out;
+  transition: width 100ms;
   transition-timing-function: linear;
-  transition-duration: 1s, 1s;
+  transition-duration: 100ms, 100ms;
   background-size: cover;
   border: 2px;
   animation: gradient 100ms;
@@ -201,7 +201,7 @@
 
 .unmute-button {
     padding: 10px 35px;
-    margin: calc(2em + 1px) 0.5em 0 0;
+    margin: calc(1em + 1px) 0.5em 0 0;
     color: #FFF;
     background-color: rgba(0,0,0,0.7);
     border: 0px;
