@@ -152,51 +152,51 @@
 .mole:active {
   background-image: url('https://federicofioravanti.github.io/whack-a-mole/img/dawson.png');
   background-size: cover;
-  -moz-transform: scale(10.0) rotate(200deg);
-  -webkit-transform: scale(10.0) rotate(200deg);
-  -o-transform: scale(10.0) rotate(200deg);
-  -ms-transform: scale(10.0) rotate(200deg);
-  transform: scale(10.0) rotate(200deg);
+  -moz-transform: scale(20.0) rotate(200deg);
+  -webkit-transform: scale(20.0) rotate(200deg);
+  -o-transform: scale(20.0) rotate(200deg);
+  -ms-transform: scale(20.0) rotate(200deg);
+  transform: scale(20.0) rotate(200deg);
   transition: all 100ms ease-out;
   transition: width .2s;
   transition-timing-function: linear;
   transition-duration: .2s, .1s;
   background-size: cover;
   border: 2px;
-  animation: gradient 100ms;
+  animation: flame 100ms;
 }
 
 .mole:target {
   background-image: url('https://federicofioravanti.github.io/whack-a-mole/img/dawson.png');
   background-size: cover;
-  -moz-transform: scale(10.0) rotate(200deg);
-  -webkit-transform: scale(10.0) rotate(200deg);
-  -o-transform: scale(10.0) rotate(200deg);
-  -ms-transform: scale(10.0) rotate(200deg);
-  transform: scale(10.0) rotate(200deg);
+  -moz-transform: scale(20.0) rotate(200deg);
+  -webkit-transform: scale(20.0) rotate(200deg);
+  -o-transform: scale(20.0) rotate(200deg);
+  -ms-transform: scale(20.0) rotate(200deg);
+  transform: scale(20.0) rotate(200deg);
   transition: all 100ms ease-out;
   transition: width 100ms;
   transition-timing-function: linear;
   transition-duration: 100ms, 100ms;
   background-size: cover;
   border: 2px;
-  animation: gradient 100ms;
+  animation: flame 100ms;
 }
 
 .mole:clicked {
   background-size: cover;
-  -moz-transform: scale(10.0) rotate(200deg);
-  -webkit-transform: scale(10.0) rotate(200deg);
-  -o-transform: scale(10.0) rotate(200deg);
-  -ms-transform: scale(10.0) rotate(200deg);
-  transform: scale(10.0) rotate(200deg);
+  -moz-transform: scale(20.0) rotate(200deg);
+  -webkit-transform: scale(20.0) rotate(200deg);
+  -o-transform: scale(20.0) rotate(200deg);
+  -ms-transform: scale(20.0) rotate(200deg);
+  transform: scale(20.0) rotate(200deg);
   transition: all 100ms ease-out;
   transition: width 100ms;
   transition-timing-function: linear;
   transition-duration: 100ms, 100ms;
   background-size: cover;
   border: 2px;
-  animation: gradient 100ms;
+  animation: flame 100ms;
 }
 
 .unmute-button {
