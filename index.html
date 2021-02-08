@@ -53,6 +53,24 @@ function play(){
    audio.play();
              }
 </script>
+
+<script>
+var playSoundBtn = document.getElementsByClassName("mole");
+
+var playSound = function() {
+    var attribute = this.getAttribute("data-sound");
+    var sounds = document.getElementsByTagName('div');
+    for(i=0; i<sounds.length; i++){
+        sounds[i].pause();
+        sounds[i].currentTime = 0;
+    }
+    document.getElementById(attribute).play();
+};
+
+for (var i = 0; i < playSoundBtn.length; i++) {
+    playSoundBtn[i].addEventListener('click', playSound, false);
+}
+</script>
 	  
       <div class="site-wrapper-inner">
         
@@ -71,15 +89,15 @@ function play(){
           </div>
 				
             <div class="grid">
-              <div class="square" id="1" value="PLAY"  onclick="play()"></div>
-              <div class="square" id="2" value="PLAY"  onclick="play()"></div>
-              <div class="square" id="3" value="PLAY"  onclick="play()"></div>
-              <div class="square" id="4" value="PLAY"  onclick="play()"></div>
-              <div class="square" id="5" value="PLAY"  onclick="play()"></div>
-              <div class="square" id="6" value="PLAY"  onclick="play()"></div>
-              <div class="square" id="7" value="PLAY"  onclick="play()"></div>
-              <div class="square" id="8" value="PLAY"  onclick="play()"></div>
-              <div class="square" id="9" value="PLAY"  onclick="play()"></div>
+              <div class="square" id="1" value="PLAY" onclick="play()" data-sound="hit"></div>
+              <div class="square" id="2" value="PLAY" onclick="play()" data-sound="hit"></div>
+              <div class="square" id="3" value="PLAY" onclick="play()" data-sound="hit"></div>
+              <div class="square" id="4" value="PLAY" onclick="play()" data-sound="hit"></div>
+              <div class="square" id="5" value="PLAY" onclick="play()" data-sound="hit"></div>
+              <div class="square" id="6" value="PLAY" onclick="play()" data-sound="hit"></div>
+              <div class="square" id="7" value="PLAY" onclick="play()" data-sound="hit"></div>
+              <div class="square" id="8" value="PLAY" onclick="play()" data-sound="hit"></div>
+              <div class="square" id="9" value="PLAY" onclick="play()" data-sound="hit"></div>
             </div>
 		
 <button class="unmute-button" id="button"><i class="fa fa-volume-off" aria-hidden="true"></i> Sound On</button>
@@ -88,9 +106,11 @@ function play(){
 
 <audio id="player" preload="auto" loop>
 <!--<source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy-sad.ogg" type="audio/ogg">-->
-  <source src="https://federicofioravanti.github.io/whack-a-mole/sound/butter.mp3" type="audio/mp3">
+  <source src="https://federicofioravanti.github.io/whack-a-mole/sound/butter.mp3" autoplay="true" type="audio/mp3">
 </audio>
-          
+		
+<audio id="hit" src="hhttps://federicofioravanti.github.io/whack-a-mole/sound/baby-goat.mp3" autoplay="false" ></audio>
+
           <div class="inner">
             <h3 class="lead">If you're wondering how to play ... </h3>       
               <p>Learn from the best. He is a beast at this game.</p>
