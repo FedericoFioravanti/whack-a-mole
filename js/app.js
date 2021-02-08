@@ -43,6 +43,7 @@ function countDown() {
   if(currentTime === 0 ) {
     clearInterval(timerId)
     alert('GAME OVER! Your final score is ' + result + '\nYou punched hard, now it is time to give Dawson more than one sweet caress!')
+    location = location
   }
 }
 
