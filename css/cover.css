@@ -182,5 +182,6 @@ body {
   }
   .inner {
     max-width: 370px;
+    padding: 15px;
 }
 }
