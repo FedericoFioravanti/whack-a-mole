@@ -73,13 +73,16 @@
 }
 
 .square:clicked {
-  border-color: limegreen;
-  -moz-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
-  -webkit-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
-  -o-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
-  -ms-transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
-  transform: scale(0.9) rotate(200deg) translateX(0px) translateY(1px);
-  box-shadow: 1px 4px 14px limegreen;
+   -webkit-animation-name: gradient;
+  -webkit-animation-duration: 40s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  -moz-transform: scale(0.9) rotate(200deg);
+  -webkit-transform: scale(0.9) rotate(200deg);
+  -o-transform: scale(0.9) rotate(200deg);
+  -ms-transform: scale(0.9) rotate(200deg);
+  transform: scale(0.9) rotate(200deg);
   transition: all 3s ease-out;
   transition: width 3s;
   transition-timing-function: linear;
