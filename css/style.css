@@ -102,7 +102,7 @@
   transition-timing-function: linear;
   transition-duration: 1s, 1s;
   background-size: cover;
-  border: 10px dashed tomato;
+  border: 0px;
 }
 
 .mole:clicked {
@@ -118,13 +118,13 @@
   transition-timing-function: linear;
   transition-duration: 1s, 1s;
   background-size: cover;
-  border: 10px dashed tomato;
+  border: 0px;
 }
 
 .unmute-button {
     padding: 10px 35px;
     margin: calc(2em + 1px) 0.5em 0 0;
-    color: white !important;
+    color: #FFF;
     background-color: rgba(0,0,0,0.7);
     border: 0px;
     border-radius: 25px;
