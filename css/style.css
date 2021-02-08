@@ -87,38 +87,35 @@
 
 .mole:active {
   background-image: url('https://federicofioravanti.github.io/whack-a-mole/img/dawson.png');
-  background-size: 120%;
-  background-repeat: no-repeat;
-  background-position-x: 0px;
-  background-position-y: 0px;
-  -moz-transform: scale(1.5) rotate(200deg);
-  -webkit-transform: scale(1.5) rotate(200deg);
-  -o-transform: scale(1.5) rotate(200deg);
-  -ms-transform: scale(1.5) rotate(200deg);
-  transform: scale(1.5) rotate(200deg);
-  box-shadow: 1px 4px 14px #546373;
+  background-size: cover;
+  -moz-transform: scale(2.0) rotate(200deg);
+  -webkit-transform: scale(2.0) rotate(200deg);
+  -o-transform: scale(2.0) rotate(200deg);
+  -ms-transform: scale(2.0) rotate(200deg);
+  transform: scale(2.0) rotate(200deg);
+  box-shadow: 1px 4px 14px limegreen;
   transition: all 1s ease-out;
   transition: width 1s;
   transition-timing-function: linear;
   transition-duration: 1s, 1s;
   background-size: cover;
-  border: 0px;
+  border: 4px;
 }
 
 .mole:clicked {
   background-size: cover;
-  -moz-transform: scale(1.5) rotate(200deg);
-  -webkit-transform: scale(1.5) rotate(200deg);
-  -o-transform: scale(1.5) rotate(200deg);
-  -ms-transform: scale(1.5) rotate(200deg);
-  transform: scale(1.5) rotate(200deg);
-  box-shadow: 1px 4px 14px #546373;
+  -moz-transform: scale(2.0) rotate(200deg);
+  -webkit-transform: scale(2.0) rotate(200deg);
+  -o-transform: scale(2.0) rotate(200deg);
+  -ms-transform: scale(2.0) rotate(200deg);
+  transform: scale(2.0) rotate(200deg);
+  box-shadow: 1px 4px 14px limegreen;
   transition: all 1s ease-out;
   transition: width 1s;
   transition-timing-function: linear;
   transition-duration: 1s, 1s;
   background-size: cover;
-  border: 0px;
+  border: 4px;
 }
 
 .unmute-button {
