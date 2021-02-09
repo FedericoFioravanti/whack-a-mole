@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" ontouchmove >
   <head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DDZWKEC41C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DDZWKEC41C');
+</script>
+	  
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -53,24 +64,6 @@ function play(){
    audio.play();
              }
 </script>
-
-<script>
-var playSoundBtn = document.getElementsByClassName("mole");
-
-var playSound = function() {
-    var attribute = this.getAttribute("data-sound");
-    var sounds = document.getElementsById('hit');
-    for(i=0; i<sounds.length; i++){
-        sounds[i].pause();
-        sounds[i].currentTime = 0;
-    }
-    document.getElementById(attribute).play();
-};
-
-for (var i = 0; i < playSoundBtn.length; i++) {
-    playSoundBtn[i].addEventListener('click', playSound, false);
-}
-</script>
 	  
       <div class="site-wrapper-inner">
         
@@ -104,12 +97,12 @@ for (var i = 0; i < playSoundBtn.length; i++) {
 
 <audio id="audio" src="https://federicofioravanti.github.io/whack-a-mole/sound/short-close.mp3"></audio>
 
-<audio id="player" preload="auto" loop>
-<!--<source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy-sad.ogg" type="audio/ogg">-->
+<audio id="player" preload="auto" autoplay loop>
+  <source src="https://federicofioravanti.github.io/whack-a-mole/sound/happy-sad.ogg" type="audio/ogg">
   <source src="https://federicofioravanti.github.io/whack-a-mole/sound/butter.mp3" autoplay="true" type="audio/mp3">
 </audio>
 		
-<audio id="hit" src="hhttps://federicofioravanti.github.io/whack-a-mole/sound/baby-goat.mp3" autoplay="false" ></audio>
+<!--<audio id="hit" src="hhttps://federicofioravanti.github.io/whack-a-mole/sound/baby-goat.mp3" autoplay="false" ></audio>-->
 
           <div class="inner">
             <h3 class="lead">If you're wondering how to play ... </h3>       
